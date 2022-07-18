@@ -348,6 +348,9 @@
     display: none;
   }
 /* --------------------------------------------------------------------------------------------------------------- */
+
+/* -------------------------------------------------------Nav Bar------------------------------------------------- */
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -509,7 +512,25 @@
 
 }
 
+/* -------------------------------------------------------Body------------------------------------------------- */
 
 body {
-    background: #464646;
+    background: #414346;
+    background-image: url("/images/background.jpg");
+    
+}
+
+.main{
+  /* border: 1px solid red; */
+  
+  background-image:url("/images/vector-lily-pads.jpg");
+  background-repeat: no-repeat;
+  background-position: center top;
+  min-height: 1440px;
+  
+}
+
+.main__content {
+  text-align: center;
+  padding: 1px 0px 0px 0px;
 }
