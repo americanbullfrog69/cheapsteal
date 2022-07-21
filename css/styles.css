@@ -671,8 +671,9 @@ body {
   align-items: flex-end;
 }
 
-.discord, .snapchat, .instagram{
-  
+.discord:hover, .snapchat:hover, .instagram:hover {
+  transform: scale(1.2);
+  transition: 350ms ease-in-out;
 }
 
 .discord-icon, .snapchat-icon, .instagram-icon {
