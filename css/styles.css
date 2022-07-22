@@ -623,6 +623,7 @@ body {
 .discord-invite {
   background-color: #d1d1d1;
   border-radius: 10px;
+  font-size: 25px;
   box-shadow: 0 0 8px rgba(0, 0, 0, 25%);
   margin: 10px;
   padding: 20px;
@@ -630,7 +631,7 @@ body {
 }
 
 .discord-img {
-  width: 80px;
+  width: 150px;
   fill: rgb(76, 0, 255);
 }
 
