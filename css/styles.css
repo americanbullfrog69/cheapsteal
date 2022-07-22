@@ -381,12 +381,14 @@ template {
 /* --------------------------------------------------------------------------------------------------------------- */
 
 /* -------------------------------------------------------Nav Bar------------------------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .navbar {
@@ -414,13 +416,14 @@ template {
 }
 
 #navbar__logo {
-  background-color: #77ffa0;
-  background-image: linear-gradient(to top, #bbf3c4 0%, #3e914b 100%);
-  background-size: 100%;
+  /* background-color: #77ffa0;
+  background image: linear-gradient(to top, #bbf3c4 0%, #3e914b 100%);
+  background-size: 100%; */
+  color: rgb(0, 247, 255);
   -webkit-background-clip: text;
   -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
+  /* -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent; */
   display: flex;
   align-items: center;
   cursor: pointer;
@@ -493,7 +496,8 @@ template {
   }
 
   #navbar__logo {
-    padding-left: 25px;
+    padding-left: 20px;
+    font-size: 1.5em;
   }
 
   .navbar__toggle .bar {
@@ -550,6 +554,8 @@ body {
   /* background-image: url(/images/leaves.webp); */
   max-width: 1200px;
   margin: auto;
+  box-shadow: 0 0 35px rgba(255, 255, 255, 0.4);
+  margin-bottom: 10vh;
 }
 
 .container {
@@ -566,6 +572,7 @@ body {
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
+  overflow: hidden;
 }
 
 .top-section a {
@@ -574,10 +581,6 @@ body {
 }
 
 .cloud-1 {
- /*  background-image: url(/images/Cloud\ 1.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center; */
   min-width: 300px;
   min-height: 200px;
   margin: 10px;
@@ -588,10 +591,6 @@ body {
 }
 
 .cloud-2 {
-  /* background-image: url(/images/Cloud\ 2.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center; */
   min-width: 300px;
   min-height: 200px;
   margin: 10px;
@@ -604,6 +603,16 @@ body {
 .cloud-2:hover {
   transform: scale(1.1);
   transition: 350ms ease-in-out;
+}
+
+@media screen and (max-width: 960px) {
+  .cloud-1-img{
+    max-width: 300px;
+  }
+
+  .cloud-2-img {
+    max-width: 300px;
+  }
 }
 
 .break {
@@ -672,7 +681,7 @@ body {
 }
 
 .discord:hover, .snapchat:hover, .instagram:hover {
-  transform: scale(1.2);
+  transform: scale(1.5);
   transition: 350ms ease-in-out;
 }
 
