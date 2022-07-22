@@ -647,7 +647,9 @@ body {
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
+  margin: 0 auto;
   margin-top: 50px;
+  max-width: 850px;
 }
 
 .text-block {
@@ -667,6 +669,11 @@ body {
   border-radius: 10%;
   box-shadow: 0 0 15px rgba(0, 0, 0, 70%);
   margin: 10px;
+}
+
+.images: {
+  transform: scale(1.5);
+  transition: 350ms ease-in-out;
 }
 
 /* ---------footer------------- */
