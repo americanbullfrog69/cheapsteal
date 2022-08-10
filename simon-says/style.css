@@ -1,0 +1,113 @@
+
+
+body{
+    margin: 0 auto;
+    background: #5a5a5a;
+    box-sizing: border-box;
+}
+
+.container {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    height: 100vh;
+    background: lightslategray;
+    padding-top: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;  
+}
+
+.simonbox {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 500px;
+    height: 500px;
+    border: 25px solid rgb(26, 26, 26);
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 2em;
+}
+
+.green {
+    background-color: darkgreen;
+    width: 250px;
+    height: 250px;
+}
+
+.red {
+    background-color: darkred;
+    width: 250px;
+    height: 250px;
+}
+
+.blue {
+    background-color: darkblue;
+    width: 250px;
+    height: 250px;
+}
+
+.yellow {
+    background-color: goldenrod;
+    width: 250px;
+    height: 250px;
+}
+
+.simon {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: rgb(26, 26, 26);
+    color: rgb(226, 226, 226);
+    font-size: 1.5em;
+}
+
+/* .green:hover {
+    background-color: lightgreen;
+}
+
+.red:hover {
+    background-color: tomato;
+}
+
+.blue:hover {
+    background-color: lightskyblue;
+}
+
+.yellow:hover {
+    background-color: yellow;
+} */
+
+.turnCounter{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 65%;
+    width: 40px;
+    height: 40px;
+    background: rgba(82, 0, 0, 70%);
+    color: red;
+    font-size: 1em;
+    font-weight: bold;
+    
+}
+
+.start {
+    font-size: 3em;
+    border-radius: .2em;
+    padding: .4em;
+    transition: 200ms;
+}
+
+/* .start:hover {
+    transform: scale(1.1);
+} */
